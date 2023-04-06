@@ -37,14 +37,14 @@ install_requires = \
  'pydantic==1.10.4',
  'pyparsing==3.0.9',
  'pyyaml==6.0.0',
- 'requests==2.28.2',
+ 'requests==2.27.1',
  'rich<13.2.0',
  'zstandard==0.19.0']
 
 extras_require = \
 {'adlfs': ['adlfs==2023.1.0'],
  'duckdb': ['pyarrow==10.0.1', 'duckdb==0.6.1'],
- 'glue': ['boto3==1.24.59'],
+ 'glue': ['boto3==1.26.60'],
  'hive': ['thrift==0.16.0'],
  'pandas': ['pyarrow==10.0.1', 'pandas==1.5.3'],
  'pyarrow': ['pyarrow==10.0.1'],
